@@ -232,3 +232,9 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, 
 
     if iteration == total: 
         print()
+        
+if __name__ == '__main__':
+    #type your path in here
+    path = ''
+    b = Board(5,3,3)
+    b.draw(b.run(path),b.robot.posField.pos,path,False,True)   
